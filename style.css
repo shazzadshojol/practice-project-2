@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Header Start */
+/* Navbar Start */
+.body{
+    font-family: 'Nunito', sans-serif;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    position: fixed;
+    background-color: #ffff;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.logo a {
+    color: coral;
+    font-size: 50px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.logo a span {
+    color: rgb(247, 163, 6);
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 10px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: coral;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-menu ul li a:hover {
+    color: rgb(118, 3, 3);
+    font-size: 20px;
+    font-weight: 700;
+    transition-delay: 0.2s;
+
+}
+/* Navbar End */
+.top-banner {
+    background-image: url(image/header-image2.jpg);
+    background-repeat: no-repeat;
+    background-size: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-banner .top-content-head {
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Nunito';
+    color: rgb(255, 68, 1);
+    font-weight: 900;
+}
+.top-banner .top-content-head span{
+    color: rgb(253, 11, 11);
+}
+.top-banner .top-content-span {
+    width: 80vh;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Nunito';
+    color:rgb(12, 1, 1);
+}
+.top-banner .top-content-a{
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    background-color: coral;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.top-banner .top-content-a:hover{
+    background-color: green;
+
+}
+/* Header End */
+/* About start */
+#about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 100px;
+    background-color: #EEEEEE;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    line-height: 1.5;
+}
+.about-h4{
+    color: green;
+    font-size: 16px;
+}
+.about-h2{
+    color: coral;
+    font-size: 22px;
+}
+.about-span{
+    padding-top: 15px;
+}
+.about-img img{
+    width: 370px;
+    box-shadow: 5px 10px 15px;
+    margin-right: 10px;
+}
+/* About end */
+/* Food Type Start*/
+#food-type{
+    display: flex;
+    flex-direction: column;
+}
+#food-type h3{
+    color: green;
+    padding: 15px;
+    text-align: center;
+}
+.food-type-img{
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 30px 150px;
+}
+.food-type-img img{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 150px;
+}
+/* Food type End */
+/* Food Menu Start */
+#food-menu{
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #EEEEEE;
+}
+.menu-content{
+    margin-left: 15px;
+}
+.food-menu-h3{
+    color: coral;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #e3d9d9;
+}
+.food-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.food-image-h5{
+    color: green;
+    line-height: 2;
+}
+.food-image-p{
+    font-size: 12px;
+}
+.food-image-price{
+    color: coral;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.food-menu-1{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    width: 300px; 
+}
+.food-menu-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    width: 300px; 
+}
+.food-menu-3{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    width: 300px; 
+}
+.food-menu-4{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    width: 300px; 
+}
+.food-menu-5{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    width: 300px; 
+}
+.food-menu-6{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    width: 300px;  
+}
+/* Food Menu Start */
+/* Customer Review Section Start */
+.review-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.review-content-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+.review-content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+.review-content-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+#review h2{
+    color: coral;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 20px;
+}
+.review-star{
+    color: rgb(255, 255, 0);
+}
+.review-content-p{
+    color: #454545;
+    padding: 10px 0;
+}
+.review-image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.review-name{
+    color: green;
+    font-size: 18px;
+    padding-top: 10px;
+}
+/* Customer Review Section Start */
+/* Contact section start */
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #EEEEEE;
+    padding: 30px;
+    background-color: coral;
+}
+.contact-img img{
+    width: 500px;
+    margin: auto;
+}
+#form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+}
+#form label{
+    text-align: justify;
+    color: #ffff;
+    padding: 5px;
+}
+#form input{
+    text-align: justify;
+    padding: 3px;
+}
+#form [type=submit]{
+    color: #ffff;
+    text-align: center;
+    background-color: red;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+#form [type=submit]:hover{
+    background-color: rgb(5, 5, 5);
+}
+.footer-end{
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
